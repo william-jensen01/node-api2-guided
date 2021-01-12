@@ -11,7 +11,7 @@ module.exports = {
   findDogs,
 };
 
-function find(query) { // { }
+function find(query) { // { page, etc }
   // select
   //  *
   // from customers
