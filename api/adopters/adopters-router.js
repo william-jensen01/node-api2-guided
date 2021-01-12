@@ -8,6 +8,8 @@ const router = express.Router()
 // ADOPTERS ENDPOINTS
 router.get('/', (req, res) => {
   console.log(req.query)
+  console.log(req.params)
+  console.log(req.body)
   // inside the body req.body
   // inside parameters of the path req.params
   // inside the query string req.query
