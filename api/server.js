@@ -131,6 +131,10 @@ server.get('/', (req, res) => {
   `);
 });
 
+// we take this out
 server.listen(4000, () => {
   console.log('\n*** Server Running on http://localhost:4000 ***\n');
 });
+
+// we expose the server
+module.exports = server
