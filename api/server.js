@@ -14,7 +14,7 @@ server.get('/api/adopters', (req, res) => {
   // inside the body req.body
   // inside parameters of the path req.params
   // inside the query string req.query
-  // 
+  // inside a header req.headers
   Adopter.find(req.query)
     .then(adopters => {
       res.status(200).json(adopters);
