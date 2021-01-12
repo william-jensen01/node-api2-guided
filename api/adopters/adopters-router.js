@@ -1,4 +1,4 @@
-const Adopter = require('./adopters/adopters-model');
+const Adopter = require('./adopters-model');
 
 // ADOPTERS ENDPOINTS
 // ADOPTERS ENDPOINTS
