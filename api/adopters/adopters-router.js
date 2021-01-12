@@ -1,7 +1,7 @@
 const Adopter = require('./adopters-model');
 const express = require('express');
 
-const router = express.Router
+const router = express.Router()
 
 // ADOPTERS ENDPOINTS
 // ADOPTERS ENDPOINTS
