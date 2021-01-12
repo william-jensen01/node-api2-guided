@@ -1,5 +1,5 @@
 const express = require('express');
-const adopterRouter = require('./')
+const adopterRouter = require('./adopters/adopters-router.js')
 const server = express();
 
 server.use(express.json());
