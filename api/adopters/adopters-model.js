@@ -12,6 +12,12 @@ module.exports = {
 };
 
 function find(query) {
+  // select
+  // *
+  // from customers
+  // where country like '%exic%'
+  // order by postalcode desc
+  // limit 2 offset 1;
   const { page = 1, limit = 2, sortby = 'id', sortdir = 'asc' } = query;
   const offset = limit * (page - 1);
 
