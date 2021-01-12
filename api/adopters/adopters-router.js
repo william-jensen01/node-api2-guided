@@ -70,6 +70,7 @@ router.post('/', (req, res) => {
     });
 });
 
+// /api/delete-reource
 router.delete('/:id', (req, res) => {
   Adopter.remove(req.params.id)
     .then(count => {
