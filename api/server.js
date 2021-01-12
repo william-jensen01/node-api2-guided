@@ -4,8 +4,8 @@ const server = express();
 
 server.use(express.json());
 
-const Adopter = require('./api/adopters/adopters-model');
-const Dog = require('./api/dogs/dogs-model');
+const Adopter = require('./adopters/adopters-model');
+const Dog = require('./dogs/dogs-model');
 
 // ADOPTERS ENDPOINTS
 // ADOPTERS ENDPOINTS
