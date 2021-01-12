@@ -11,6 +11,8 @@ const Dog = require('./dogs/dogs-model');
 // ADOPTERS ENDPOINTS
 // ADOPTERS ENDPOINTS
 server.get('/api/adopters', (req, res) => {
+  // inside the body req.body
+  // inside parameters of the path
   Adopter.find(req.query)
     .then(adopters => {
       res.status(200).json(adopters);
