@@ -1,10 +1,11 @@
 const express = require('express');
-const adopterRouter = require('./adopters/adopters-router.js')
+const adopterRouter = require('./adopters/adopters-router.js');
+const dogRouter = require('./dogs/dogs-router.js');
 const server = express();
 
 server.use(express.json());
 server.use('/api/adopters', adopterRouter)
-server.use('/')
+server.use('/api/dogs', dogRouter)
 
 // OTHER ENDPOINTS
 // OTHER ENDPOINTS
