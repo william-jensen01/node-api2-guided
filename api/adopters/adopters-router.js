@@ -13,7 +13,6 @@ router.get('/', (req, res) => {
   // inside a header req.headers
   Adopter.find(req.query)
     .then(adopters => {
-      throw new Error('somethign horrible happened')
       res.status(200).json(adopters);
     })
     .catch(error => {
